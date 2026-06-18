@@ -52,6 +52,12 @@ body {
 
 .logo-icon {
   display: block;
+  color: var(--gray-400);
+  transition: color 0.2s;
+}
+
+.logo-group:hover .logo-icon {
+  color: var(--gray-500);
 }
 
 .logo-text {
