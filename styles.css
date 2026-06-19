@@ -50,14 +50,8 @@ body {
   border-radius: 0.125rem;
 }
 
-.logo-icon {
+.logo-icon-original {
   display: block;
-  color: var(--gray-400);
-  transition: color 0.2s;
-}
-
-.logo-group:hover .logo-icon {
-  color: var(--gray-500);
 }
 
 .logo-text {
@@ -271,6 +265,30 @@ body {
   padding-bottom: 4rem;
   font-size: 0.875rem;
   color: var(--gray-500);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-sponsor-link {
+  display: flex;
+  align-items: center;
+  color: var(--gray-400);
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.footer-sponsor-link:hover {
+  color: var(--gray-600);
+}
+
+.footer-logo {
+  display: block;
 }
 
 html {
